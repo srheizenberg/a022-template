@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    padding: 20px;
+}
+button:hover {
+    background-color: orangered;
+    color: white;
+}
+
+button:active {
+    background-color: pink;
+    color: red;
+}
