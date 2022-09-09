@@ -12,10 +12,12 @@
     color: #abd1c6;
   }
   main{
+    position: relative;
     height: 1200px;
     padding: 20px;
     background-color: #e8e4e6;
     margin: 10px;
+  
   }
   
   section{
@@ -24,15 +26,32 @@
     background-color: white;
     padding: 20px;
     margin: 10px 0;
+    text-align: center;
+  }
+  section:nth-child(1){
+    position: absolute;
+    right: 0px;
+    bottom: 0vh;
   }
   
   nav{
     padding: 20px;
+    margin: 10px;
     background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
   }
   
   footer{
     background-color: #abd1c6;
     padding: 20px;
     text-align: center;
+  }
+  footer:hover {
+    background-color: yellow;
+  }
+
+  button:active {
+    background-color: green;
   }

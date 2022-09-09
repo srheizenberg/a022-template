@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-color: orangered;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+}
+main {
+    background-color: orange;
+    height: 100vh;
+}
+footer {
+    background-color: black;
+    height: 10vh;
+    position: static;
+}
